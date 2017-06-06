@@ -1,6 +1,6 @@
 {
   "name": "koa-validator-middleware",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "some validator middlewares for koa.",
   "main": "src/index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/node-cloud/koa-validator-middleware.git"
+    "url": "git+https://github.com/miaowing/koa-validator-middleware.git"
   },
   "keywords": [
     "validador",
@@ -19,9 +19,9 @@
   "author": "miaowing <i@zfeng.net>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/node-cloud/koa-validator-middleware/issues"
+    "url": "https://github.com/miaowing/koa-validator-middleware/issues"
   },
-  "homepage": "https://github.com/node-cloud/koa-validator-middleware#readme",
+  "homepage": "https://github.com/miaowing/koa-validator-middleware#readme",
   "dependencies": {
     "lodash": "^4.17.4"
   }
