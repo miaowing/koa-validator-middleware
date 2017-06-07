@@ -40,3 +40,5 @@ router.post('/users',
 ### Size(path, min, max)
 
 ### Pattern(path, regExp)
+
+### Default(path, defaultValue)

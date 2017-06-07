@@ -1,6 +1,6 @@
 {
   "name": "koa-validator-middleware",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "some validator middlewares for koa.",
   "main": "build/index.js",
   "scripts": {
