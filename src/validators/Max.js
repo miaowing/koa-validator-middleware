@@ -14,7 +14,6 @@ export default function (path, max) {
 
         if (util.toNumber(value) > max) {
             logError(ctx, path, 'max', 'The value of "' + path + '" is larger than ' + max + '.');
-            return false;
         }
 
         await next();

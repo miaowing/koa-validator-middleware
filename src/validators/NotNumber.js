@@ -14,7 +14,6 @@ export default function (path) {
 
         if (!util.isNumber(value)) {
             logError(ctx, path, 'not-number', 'The "' + path + '" is not a number.');
-            return false;
         }
 
         await next();

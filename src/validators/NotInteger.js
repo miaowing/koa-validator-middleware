@@ -14,7 +14,6 @@ export default function (path) {
 
         if (!util.isInteger(value)) {
             logError(ctx, path, 'not-integer', 'The "' + path + '" is not a int number.');
-            return false;
         }
 
         await next();

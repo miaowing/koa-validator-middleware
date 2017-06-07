@@ -10,7 +10,6 @@ export default function (path) {
 
         if (value === null || value === undefined) {
             logError(ctx, path, 'not-null', 'The "' + path + '" cannot be null.');
-            return false;
         }
 
         await next();

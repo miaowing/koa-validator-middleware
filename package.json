@@ -1,9 +1,10 @@
 {
   "name": "koa-validator-middleware",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "some validator middlewares for koa.",
-  "main": "src/index.js",
+  "main": "build/index.js",
   "scripts": {
+    "build": "babel src -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,5 +25,9 @@
   "homepage": "https://github.com/miaowing/koa-validator-middleware#readme",
   "dependencies": {
     "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.1"
   }
 }

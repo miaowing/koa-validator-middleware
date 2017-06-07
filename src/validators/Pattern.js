@@ -14,7 +14,6 @@ export default function (path, regExp) {
 
         if (!regExp.test(value)) {
             logError(ctx, path, 'max', 'The value of "' + path + '" is not match.');
-            return false;
         }
 
         await next();

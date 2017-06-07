@@ -14,7 +14,6 @@ export default function (path, min) {
 
         if (util.toNumber(value) < min) {
             logError(ctx, path, 'min', 'The value of "' + path + '" is smaller than ' + min + '.');
-            return false;
         }
 
         await next();

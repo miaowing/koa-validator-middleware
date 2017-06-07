@@ -10,7 +10,6 @@ export default function (path) {
 
         if (!value) {
             logError(ctx, path, 'not-empty', 'The "' + path + '" cannot be empty');
-            return false;
         }
 
         await next();
