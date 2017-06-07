@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Size = exports.Pattern = exports.NotNull = exports.NotInteger = exports.NotEmpty = exports.NotNumber = exports.Min = exports.Max = undefined;
+exports.Default = exports.Size = exports.Pattern = exports.NotNull = exports.NotInteger = exports.NotEmpty = exports.NotNumber = exports.Min = exports.Max = undefined;
 
 var _Max = require('./validators/Max');
 
@@ -37,6 +37,10 @@ var _Size = require('./validators/Size');
 
 var _Size2 = _interopRequireDefault(_Size);
 
+var _Default = require('./validators/Default');
+
+var _Default2 = _interopRequireDefault(_Default);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 exports.Max = _Max2.default;
@@ -47,3 +51,4 @@ exports.NotInteger = _NotInteger2.default;
 exports.NotNull = _NotNull2.default;
 exports.Pattern = _Pattern2.default;
 exports.Size = _Size2.default;
+exports.Default = _Default2.default;
