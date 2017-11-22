@@ -13,7 +13,7 @@ export default function (path, min, max) {
         }
 
         if (value.length < min || value.length > max) {
-            logError(ctx, path, 'min', 'The value\'s length of "' + path + '" is not in ' + min + ' and ' + max + '.');
+            logError(ctx, path, 'size', 'The value\'s length of "' + path + '" is not in ' + min + ' and ' + max + '.');
         }
 
         await next();

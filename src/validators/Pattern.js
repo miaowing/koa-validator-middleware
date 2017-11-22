@@ -13,7 +13,7 @@ export default function (path, regExp) {
         }
 
         if (!regExp.test(value)) {
-            logError(ctx, path, 'max', 'The value of "' + path + '" is not match.');
+            logError(ctx, path, 'pattern', 'The value of "' + path + '" is not match.');
         }
 
         await next();

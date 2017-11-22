@@ -17,7 +17,7 @@ exports.default = function (path, regExp) {
             }
 
             if (!regExp.test(value)) {
-                (0, _common.logError)(ctx, path, 'max', 'The value of "' + path + '" is not match.');
+                (0, _common.logError)(ctx, path, 'pattern', 'The value of "' + path + '" is not match.');
             }
 
             yield next();

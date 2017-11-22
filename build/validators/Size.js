@@ -17,7 +17,7 @@ exports.default = function (path, min, max) {
             }
 
             if (value.length < min || value.length > max) {
-                (0, _common.logError)(ctx, path, 'min', 'The value\'s length of "' + path + '" is not in ' + min + ' and ' + max + '.');
+                (0, _common.logError)(ctx, path, 'size', 'The value\'s length of "' + path + '" is not in ' + min + ' and ' + max + '.');
             }
 
             yield next();
